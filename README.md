@@ -15,7 +15,7 @@ See [NOTICE.md](NOTICE.md) for provenance and licensing.
 
 [**`demo.mp4`**](demo.mp4) **is a narrated walkthrough of the whole artifact** - the fastest
 way to see what SemCRS does without installing anything. Starting from a clean checkout,
-it covers the setup, then follows one live GPT-5 run of the full pipeline on the Mock CP:
+it covers the setup, then follows one live GPT-5 (2025-08-07 version) run of the full pipeline on the Mock CP (i.e., Challenge Project):
 seed-input generation, reachability analysis, vulnerability detection (which flags two
 candidate functions), PoV generation, validation under AddressSanitizer, and patch
 generation with the post-patch PoV re-run and functional tests. The run ends with a
